@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+* {
+  font-family: "Times New Roman";
+}
+
+.tablepricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.table1,
+.table2,
+.table3,
+.table4 {
+  background-color: white;
+  width: 500px;
+  height: 820px;
+  margin: 50px 100px 0px 100px;
+}
+
+.header {
+  background-color: #32a56f;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body {
+  text-align: center;
+  padding-top: 50px;
+  line-height: 20px;
+}
+
+.button1,.button2,.button3,.button4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.body > p {
+  font-size: 30px;
+}
+
+hr {
+  width: 30%;
+}
+
+.header .jenis {
+  color: #fff;
+  font-size: 60px;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.header .harga {
+  color: #fff;
+  font-size: 70px;
+  background-color: #197f50;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .bulan {
+  color: #fff;
+  font-size: 30px;
+  text-transform: capitalize;
+  width: ;
+  border: 1px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+}
+
+button {
+  background-color: #32a56f;
+  color: #fff;
+  border: 1px solid #32a56f;
+  font-size: 40px;
+  padding: 20px 30px 20px 30px;
+  font-weight: 550;
+  border-radius: 5px;
+}
+
+button:hover {
+    background-color: #149b70;
+}
+
+
